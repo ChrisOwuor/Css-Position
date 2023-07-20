@@ -1,0 +1,73 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(224, 219, 219);
+  border-radius: 10px;
+}
+
+
+.bxone {
+  width: 302px;
+  height: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.bxtwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: scroll;
+  padding: 0 10px 10px 10px ;
+}
+#nav{
+    height: 50px;
+}
+.blogs {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+.bxfive {
+  width: 302px;
+  height: 200px;
+  background-color: rgb(146, 31, 144);
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.onechild {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+  border-radius: 7px;
+}
+#nav {
+  position: sticky;
+  background-color: blue;
+  top: 0;
+}
+@media (max-width: 480px) {
+  .bxone {
+    display: none;
+  }
+  #nav {
+    position: sticky;
+    background-color: blue;
+    top: 0;
+    margin-bottom: 0px;
+  }
+}
