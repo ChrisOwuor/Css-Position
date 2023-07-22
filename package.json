@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "name": "json-server",
+  "description": "Css positions include :static which is the default ,absolute which is used when say you have a div then now\r you want to like position elements inside that div it uses top,left,right and bottom .\r To use absolute we first need to declare the parent to relative then now position the childrenn \r elements.\r Position sticky and fixed  use now te screen itself like say if i set a div to fixed top 0 \r even if the div is inside a parent div that has a margin top to  30px you will notice that \r  the child div will be fixed at the top of the screen and not at the top of the parent div because this fixed and sticky position \r  uses the screen itself and not the parent divs \r  To like create this scroll effect first  create a  main container to hold your elements set and overflow hidden set the \r  height to 100vh to cover all screen remove padding and margin of the body then now declare \r  your two divs inside a container declare the container to flex jusd do flex row  and add there \r  heights to 100%   now for each div and overflow scroll and thats it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
